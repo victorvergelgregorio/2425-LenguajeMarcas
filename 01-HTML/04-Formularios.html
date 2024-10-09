@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get" >
+        
+        <fieldset>
+            <legend>Formulario de ejemplo</legend>
+            <p>Nombre:<input type="text" name="nombre" placeholder="Inserte un nombre de usuario" title="Nombre"></p>
+            <p>Edad:<input type="number" name="edad" required ></p>
+            <p>Contraseña:<input type="password" name="contrasena" ></p>
+            <p>Color favorito:<input type="color" name="colorFavorito"></p>
+            <p>Fecha:<input type="date" name="fecha"></p>
+            <p>Fecha2:<input type="datetime-local" name="fecha2"></p>
+            <p>Fichero:<input type="file" name="fichero"></p>
+            <p>Oculto:<input type="hidden" name="oculto" value="66"></p>
+        </fieldset>
+        
+
+        <p><textarea name="sugerencias" placeholder="Inserte información..." cols="100" rows="10" maxlength="5"></textarea></p>
+        <p>Deporte favorito: 
+            <input type="checkbox" name="deporte" value="Baloncesto">Baloncesto
+            <input type="checkbox" name="deporte" value="Futbol">Futbol
+            <input type="checkbox" name="deporte" value="Tenis">Tenis
+            <input type="checkbox" name="deporte" value="Natacion">Natacion
+        </p>
+
+        <p>Sexo: 
+            <input type="radio" name="sexo" value="Hombre" >Hombre
+            <input type="radio" name="sexo" value="Mujer" >Mujer
+        </p>
+        <p>Ciudad<select name="ciudad" multiple>
+            <option value="28">Madrid</option>
+            <option value="33">Barcelona</option>
+            <option value="55">Valencia</option>
+            <option value="10">Sevilla</option>    
+        </select>
+    </p>
+
+        <a href="https://gregoriofer.com">Enlace</a>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+</body>
+</html>
