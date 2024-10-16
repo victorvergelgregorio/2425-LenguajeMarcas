@@ -5,3 +5,13 @@ p {
 body {
     background-color: lightsalmon;
 }
+
+#resaltar1 {
+    /* colores */
+    background-color: yellow;
+    color: red;
+}
+.tipo1 {
+    font-size: 20px;
+    font-weight: bold;
+}
