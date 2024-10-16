@@ -1,0 +1,7 @@
+p>span {
+    color: red;
+}
+p+p{
+    font-size: large;
+    background-color: thistle;
+}
