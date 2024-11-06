@@ -1,0 +1,45 @@
+td[width]{
+    background-color: #FF0;
+}
+td[width="50%"]{
+    font-size: 50px;
+    background-color: blanchedalmond;
+}
+/* comentario */
+td:not([width="50%"]){
+    font-style: italic;
+}
+
+/* Selectores pseudoclase */
+a:visited {
+    color: red;
+}
+a:hover {
+    color: green;
+}
+a:active {
+    color: blue;
+}
+input:focus {
+    background-color: yellow;
+    color: red;
+}
+p:first-of-type{
+    background-color: blue;
+}
+p:last-of-type{
+    background-color: green;
+}
+p:nth-child(2n+1){
+    background-color: yellow;
+}
+span:last-child{
+    font-size: 40px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+* {
+    font-family: Arial;
+}
+
+
+body {
+    background-color: black;
+    margin: 5%;
+}
+.textonormal{
+    color: yellow;
+    text-align: justify;
+
+    font-size: 12px;
+}
+.cabecera{
+    color: orange;
+    background-color: aqua;
+
+    font-size: 16px;
+}
+.cabecera2{
+    color: white;
+    font-size: 14px;
+}
+
+#ultimo {
+    text-align: right;
+    color: blue;
+    font-size: 12px;
+    text-decoration: underline;
+}

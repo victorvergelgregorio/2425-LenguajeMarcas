@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    background-color:#FAFAFA ;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #EAEAEA;
+    font-size: 125%;
+}
+fieldset{
+    margin: 10px 20px;
+    background-color: #EEEEEE;
+}
+
+legend{   
+    padding: 0px 5px;
+    border: 3px color(#EEEEEE);
+    background-color: white;
+}
+p{
+    margin: 0;
+}
+#boton{
+    text-align: right;
+}
+.rojo{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+#apellidos{
+    width: 250px;
+}
+#domicilio{
+    width: 380px;
+}
+button{
+    background-color: rgb(252, 194, 194);
+
+}

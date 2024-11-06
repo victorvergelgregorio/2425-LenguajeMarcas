@@ -1,0 +1,21 @@
+table {
+    background-image: url("https://picsum.photos/id/1/100/200");
+    background-repeat: no-repeat;
+    background-position:  bottom right;
+    background-size: 100px 100px;
+}
+#ultimoParrafo {
+    background-color: blueviolet;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+   /* border-width: 10px;
+    border-color: black;
+    border-style: double*/
+    border: 10px double black;
+}
+
+#ultimisimo {
+    background-color: burlywood;
+    clip-path: circle(200px at 0px 0px);
+}

@@ -1,0 +1,35 @@
+span {
+    color: royalblue;
+}
+p {
+    background-color: #8fed8f;
+}
+body {
+    background-color: mediumorchid;
+}
+/* Textos */
+p:first-of-type {
+    letter-spacing: 5px;
+    text-indent: calc(10% + 10px);
+    text-shadow: 2px 2px 5px #ff0000;
+}
+p:hover {
+    word-spacing: 20px;
+}
+#parrafo2 {
+    text-align: right;
+}
+.miclase {
+    text-decoration: line-through underline;
+    text-transform: uppercase ;
+}
+p:last-of-type {
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Rubik Wet Paint", system-ui;
+    font-variant: small-caps;
+}
+
+
