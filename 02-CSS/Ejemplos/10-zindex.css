@@ -1,0 +1,13 @@
+div {
+    width: 100px;
+    height: 100px;
+}
+#div1 {
+    background-color: rosybrown;
+}
+#div2 {
+    background-color: lightblue;
+}
+#div3 {
+    background-color: lightgreen;
+}
