@@ -1,0 +1,25 @@
+body{
+    background-color: red;
+}
+#azules {
+    margin-top: 150px;
+}
+.azul{
+    background-color: blue;
+    width: 30%;
+    margin: 1%;
+    height: 130px;
+    display: inline-block;
+}
+.amarillo{
+    background-color: yellow;
+    width: 100%;
+    margin-top:  100px;
+    height: 30px;
+}
+.verde{
+    background-color: green;
+    width: 96%;
+    height:100px;
+    margin-top: 100px;
+}

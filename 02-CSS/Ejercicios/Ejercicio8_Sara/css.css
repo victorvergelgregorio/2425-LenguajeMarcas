@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+}
+
+.propiedades1 {
+    margin: 50px;
+    border: solid blue thin;
+    display: inline;
+}
+
+.propiedades2{
+    margin: 10px;
+    border: dotted red thin;
+    display: inline;
+}
+
+img {
+    float: left;
+}
+
+.parrafo3 {
+    height: 200px;
+    background-color: #ededed;
+    width: 200px;
+    margin-top: 0px;
+    float: right;
+}

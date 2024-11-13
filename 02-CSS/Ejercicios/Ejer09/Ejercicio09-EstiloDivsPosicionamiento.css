@@ -1,0 +1,44 @@
+body{
+    background-color: red;
+}
+.azules {
+    background-color: blue;
+    top: 8px;
+    height: 200px;
+    width: 150px;
+    position: absolute;
+}
+#primero{
+    left: 8px;
+}
+#segundo{
+    left: 250px;
+}
+#tercero{
+    left: 495px;
+}
+.amarillos {
+    background-color: yellow;
+    top: 148px;
+    height: 60px;
+    width: 150px;
+    position: absolute;
+}
+
+#cuarto{
+    left: 8px;
+}
+#quinto{
+    left: 250px;
+}
+#sexto{
+    left: 495px;
+}
+#septimo{
+    position: absolute;
+    top: 340px;
+    left: 8px;
+    background-color: green;
+    height:  70px;
+    width: 640px;
+}

@@ -1,0 +1,51 @@
+#parrafo1 {
+    border: dotted 3px black;
+    background-color: tomato;
+    padding: 20px ;
+    padding-right: 100px;
+    text-align: justify;
+    margin: 25px;
+    margin-bottom: 60px;
+}
+p:last-of-type {
+    border: solid 3px black;
+}
+#nombre{
+    /*border: solid 3px black;*/
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+#imagen1{
+    margin-left: 25%;
+    width: 50%;
+    border: solid 3px black;
+}
+#imagen2{
+    display: block;
+    margin: auto;
+}
+#imagen3 {
+    display: block;
+    margin-left: calc(50% - 100px);
+}
+li {
+    list-style-type: none;
+}
+li:hover {
+    background-color: black;
+    color: white;
+}
+li {
+    display: inline-block;
+    width: 100px;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+}
+ul {
+/*    text-align: center;*/
+    border: solid 3px black;
+    display: inline;
+    margin-left: calc(50% - 220px);
+}

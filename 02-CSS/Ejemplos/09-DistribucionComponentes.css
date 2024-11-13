@@ -1,0 +1,11 @@
+#imagen1 {
+    float: right;
+}
+#p3 {
+    clear: both;
+}
+#imagen2 {
+    position: relative;
+    top: 0px;
+    left: calc(50% - 50px);
+}
